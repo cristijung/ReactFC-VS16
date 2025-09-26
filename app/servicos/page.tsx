@@ -1,8 +1,10 @@
+import CountServices from "../components/countSrvcs/CountServices";
 
 export default function Serviços() {
     return(
         <>
-        Esta é a rota de serviços
+        <h1>Serviços Veterinários</h1>
+        <CountServices />
         </>
     );
 }
