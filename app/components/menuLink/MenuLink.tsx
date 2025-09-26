@@ -1,11 +1,11 @@
 import Link from 'next/link';
 import { LinkProps } from '@/app/types/types';
 
-
-export function CustomLink({ href, children, className }: LinkProps) {
+export function MenuLink({ href, children, className, onClick }: LinkProps) {
   return (
     <Link
       href={href}
+      onClick={onClick}
       className={`
         inline-flex items-center justify-center
         rounded-lg
