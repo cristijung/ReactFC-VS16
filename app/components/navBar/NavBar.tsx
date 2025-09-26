@@ -3,8 +3,9 @@ import Link from "next/link";
 import { MenuLink } from "../menuLink/MenuLink";
 import { useState } from "react";
 import { IoClose, IoMenu } from "react-icons/io5";
+
 export default function NavBar({ links = [] }: { links?: { href: string; label: string; }[] }) {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false); //hook
   
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
