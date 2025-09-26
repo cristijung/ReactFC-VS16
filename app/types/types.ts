@@ -5,3 +5,8 @@ export interface LinkProps {
   className?: string;
    onClick?: () => void;
 }
+
+export interface NavLink {
+  href: string;
+  label: string;
+}

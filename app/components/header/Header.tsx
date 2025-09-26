@@ -1,13 +1,6 @@
-
-
 import React from 'react';
 import NavBar from '../navBar/NavBar';
-
-// array de links - tipos
-interface NavLink {
-  href: string;
-  label: string;
-}
+import { NavLink } from '@/app/types/types';
 
 const links: NavLink[] = [
   { href: '/', label: 'Início' },
