@@ -16,14 +16,14 @@ const Counter = () => {
                 <div className="flex justify-center space-x-4">                     
                     <button 
                         onClick={increment} 
-                        className={`bg-indigo-600 text-white ${buttonClasses}`}
+                        className={`bg-orange-600 text-white ${buttonClasses}`}
                     > 
                         Incrementar ➕ 
                     </button>                    
                     
                     <button 
                         onClick={decrement} 
-                        className={`bg-red-500 text-white ${buttonClasses} hover:bg-red-600`}
+                        className={`bg-pink-500 text-white ${buttonClasses} hover:bg-pink-600`}
                     > 
                         Decrementar ➖ 
                     </button>
