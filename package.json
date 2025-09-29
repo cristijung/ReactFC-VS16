@@ -1,13 +1,12 @@
 {
-  "name": "react-fc-vs16",
+  "name": "reactfc-vs16",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint",
-    "test": "jest"
+    "lint": "eslint"
   },
   "dependencies": {
     "next": "15.5.4",
@@ -16,8 +15,6 @@
     "react-icons": "^5.5.0"
   },
   "devDependencies": {
-    "@babel/preset-react": "^7.27.1",
-    "@babel/preset-typescript": "^7.27.1",
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
     "@testing-library/jest-dom": "^6.8.0",
@@ -29,9 +26,7 @@
     "eslint": "^9",
     "eslint-config-next": "15.5.4",
     "jest": "^30.2.0",
-    "jest-environment-jsdom": "^30.2.0",
     "tailwindcss": "^4",
-    "ts-jest": "^29.4.4",
     "typescript": "^5"
   }
 }
