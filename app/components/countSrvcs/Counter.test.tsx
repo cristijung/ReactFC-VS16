@@ -1,14 +1,13 @@
 import React from "react";
 import { render, screen, fireEvent } from '@testing-library/react';
 import Counter from "./Counter";
-import { useCounter } from "@/app/context/CounterContext";
 
 
 // mock do hook useCounter
 const mockUseCounter = jest.fn();
 
 //mock p o módulo do contexto
-jest.mock('../context/CountContext', () => ({
+jest.mock('../../context/CounterContext.tsx', () => ({
     useCounter: () => mockUseCounter(),
 }));
 
